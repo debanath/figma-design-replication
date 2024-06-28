@@ -2,9 +2,9 @@
 
 ## TODO
 
-[] Design Replication
-[] Responsiveness
-[] Functionality
-[x] Code Quality
-[x] Github
-[] Bonus Point
+- [ ] Design Replication
+- [ ] Responsiveness
+- [ ] Functionality
+- [x] Code Quality
+- [x] Github
+- [ ] Bonus Point
