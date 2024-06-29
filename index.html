@@ -14,7 +14,7 @@
                 <a href="#">Programs</a>
                 <a href="#">Success Story</a>
                 <a href="#">About</a>
-                <div class="book-button">Book a Free Demo</div>
+                <div class="book-button" id="bookBtn">Book a Free Demo</div>
             </div>
         </div>
         <div class="achievers">
@@ -59,6 +59,65 @@
         <div class="divider">
             <img src="assets/wave-divider.svg" alt="divider" />
         </div>
+
+        <div id="bookForm" class="book-form">
+            <!-- container -->
+            <div class="bookform-container">
+                <div class="book-form-top">
+                    <div class="form-left">
+                        <h3>Book Demo Session</h3>
+                        <span>Only 4 Spots Left!</span>
+                    </div>
+                    <span class="form-close">&times;</span>
+                </div>
+                <form class="book-form-body">
+                    <input type="text" placeholder="Name" name="name" />
+                    <input type="text" placeholder="Email id" name="email" />
+                    <div class="phone-container">
+                        <div class="select-wrapper">
+                            <select
+                                id="countryCode"
+                                name="country-code"
+                                class="country-code"
+                            >
+                                <option value="+91">+91</option>
+                                <option value="1">+1</option>
+                                <option value="49">+49</option>
+                                <option value="33">+33</option>
+                            </select>
+                        </div>
+                        <div class="phone-vertical"></div>
+                        <input
+                            type="tel"
+                            placeholder="Enter mobile number"
+                            pattern="\d*"
+                        />
+                    </div>
+                    <select id="babyStage" name="baby-stage">
+                        <option value="" disabled selected>
+                            Select Baby Stage
+                        </option>
+                        <option value="infant">Infant</option>
+                        <option value="toddler">Toddler</option>
+                        <option value="preschooler">Preschooler</option>
+                    </select>
+
+                    <input type="submit" value="Apply Now" />
+
+                    <p>
+                        UpTodd's <a href="#">Terms & Conditions</a> and
+                        <a href="#">Privacy Policy</a> for complete data
+                        security
+                    </p>
+
+                    <div class="shortlogo-holder">
+                        <div class="avastlogo"></div>
+                        <div class="httpslogo"></div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
         <script src="script.js" />
     </body>
 </html>
